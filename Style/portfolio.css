@@ -1,11 +1,52 @@
-table{
-  border-collapse: collapse;
+/* common shared styles */
+body {
+  font-family: 'Open Sans', sans-serif;
 }
-th, td{
-  border: 1px solid black;
-  padding: 5px 10px;
+
+.text-primary {
+  color: #FD6E0A;
+  font-size: 45px;
+  font-weight: 800;
 }
-.table{
-  position: relative;left: 50%;
-  transform: translate(-50%);
+
+.btn-primary {
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px ;
+}
+
+/* nav related styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
 }
