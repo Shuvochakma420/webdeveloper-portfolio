@@ -112,10 +112,11 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 /* about section styles */
 .about {
   padding: 130px;
@@ -123,22 +124,34 @@ main{
   background: #FFF8F3;
   margin: 130px 0px
 }
-.about-info-container{
+
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+
+.about-info {
   text-align: center;
 }
+
 /* skills related styles*/
 
-#what-i-do-descripion{
+#what-i-do-descripion {
   padding: 30px 150px;
 }
-.skill-container{
+
+.skill-container {
   display: flex;
 }
-.skill{
+
+.skill {
   padding: 30px;
   gap: 24px;
+}
+
+/* resume section style */
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
