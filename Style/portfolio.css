@@ -18,6 +18,15 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
+.hire{
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
 
 .section-title {
   color: #181818;
