@@ -18,7 +18,8 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
-.hire{
+
+.hire {
   border-radius: 5px;
   background: #FD6E0A;
   border: 0;
@@ -77,9 +78,9 @@ nav a {
 /* header related styles */
 .header {
   background-color: #FFF8F3;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png),  url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
@@ -213,11 +214,12 @@ footer {
   width: 50%;
 }
 
-.social-links a{
+.social-links a {
   margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -227,4 +229,15 @@ textarea {
   background: #FFF;
   border: 0;
   width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .skill-container{
+    flex-direction: column;
+  }
+  #what-i-do-descripion{
+    padding: 20px;
+  }
+  .resume-container{
+    flex-direction: column;
+  }
 }
